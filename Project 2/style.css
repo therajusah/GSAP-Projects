@@ -15,14 +15,32 @@
     height: 100%;
     width: 100%;
     background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 #page2{
     height: 100%;
     width: 100%;
     background-color: rgb(30, 179, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #page3{
     height: 100%;
     width: 100%;
-    background-color: rgb(7, 26, 196);
+    background-color: rgb(198, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 50%;
+  background: linear-gradient(rgb(25, 203, 40), royalblue);
 }
