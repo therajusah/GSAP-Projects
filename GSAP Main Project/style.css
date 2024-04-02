@@ -14,6 +14,17 @@ body {
   width: 100%;
 }
 
+#crsr {
+    height: 2.8vw;
+    width: 2.8vw;
+    border-radius: 50%;
+  border: 2px solid rgb(239, 239, 239);
+    position: fixed;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+}
+
 /* Loader code starts */
 
 #loader {
@@ -110,3 +121,45 @@ body {
 }
 
 /* Loader code ends */
+
+/* Navbar Code Starts */
+#page1  #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 5.5vw;
+
+}
+
+#nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+
+}
+
+#nav-part2 h4{
+font-size: 0.8vw;
+font-weight: 500;
+}
+
+.hero {
+    /* background-color: red; */
+    width: 72%;
+    margin-left: 28%;
+}
+.hero:nth-child(2) {
+ margin-top: 18vh;
+}
+
+.hero h1{
+        font-size: 7vw;
+        font-weight: 600;
+        text-transform: uppercase;
+       line-height: 7vw;
+
+}
+
+
+
