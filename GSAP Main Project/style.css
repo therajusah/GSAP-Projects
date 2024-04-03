@@ -312,7 +312,7 @@ background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-20
 }
 
 #page4-blue-div {
-  background-color: #3F7DF4;
+  background-color: #3f7df4;
   width: 33vw;
   padding: 4vw 3vw;
   position: relative;
@@ -329,18 +329,82 @@ background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-20
   border-bottom: 2px solid #ffffff95;
 }
 
-.blue-div-elem h4{
+.blue-div-elem h4 {
   font-size: 1.2vw;
   font-weight: 500;
 }
 
-.blue-div-elem p{
+.blue-div-elem p {
   width: 40%;
   font-size: 0.7vw;
 }
 
-
 #page5 {
   min-height: 100vh;
   width: 100%;
+  position: relative;
 }
+
+.elem {
+  /* background-color: red; */
+  white-space: nowrap;
+  /* overflow-x: auto; */
+  margin-bottom: 1vw;
+}
+.elem h1 {
+  font-size: 6vw;
+  -webkit-text-stroke: 1px #fff;
+  font-weight: 400;
+  color: transparent;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 16px;
+  animation-name: anime;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 2px));
+  }
+}
+
+.elem2 {
+  /* background-color: red; */
+  white-space: nowrap;
+  /* overflow-x: auto; */
+  margin-bottom: -2vw;
+}
+.elem2 h1 {
+  font-size: 6vw;
+  -webkit-text-stroke: 1px #fff;
+  font-weight: 400;
+  color: transparent;
+  text-transform: uppercase;
+  display: inline-block;
+  transform: translateX(calc(-100% -20px));
+  animation-name: anime;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+.elem span{
+  font-style: italic;
+  font-family: 'silk serif';
+  color: transparent;
+}
+.elem2 span{
+  font-style: italic;
+  font-family: 'silk serif';
+  color: transparent;
+}
+
+
+
+
