@@ -349,7 +349,7 @@ background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-20
   /* background-color: red; */
   white-space: nowrap;
   /* overflow-x: auto; */
-  margin-bottom: 1vw;
+  margin-bottom: -2vw;
 }
 .elem h1 {
   font-size: 6vw;
