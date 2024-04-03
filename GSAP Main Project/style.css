@@ -148,13 +148,24 @@ body {
 
 .hero {
   width: 72%;
-  margin-left: 28%;
-  height: fit-content;
-  overflow: hidden;
+  margin-left: 27%;
+  /* overflow: hidden; */
   display: flex;
   align-items: center;
   position: relative;
   z-index: 9999;
+  line-height: 7.2vw;
+}
+
+#hero1 h1::before {
+  content: "01";
+  position: absolute;
+  font-size: 3vw;
+  font-family: "silk serif";
+  font-weight: 100;
+  left: -18%;
+  top: -19%;
+
 }
 .hero:nth-child(2) {
   margin-top: 18vh;
@@ -283,6 +294,16 @@ background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-20
   text-transform: uppercase;
   position: relative;
 }
+#page4-content h1::before {
+  content: "03";
+  position: absolute;
+  font-size: 3vw;
+  font-family: "silk serif";
+  font-weight: 100;
+  left: -12%;
+  top: 8%;
+}
+
 #page4-content .underline {
   height: 1px;
   width: 100%;
@@ -381,7 +402,7 @@ background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-20
   margin-bottom: -2vw;
 }
 .elem2 h1 {
-  font-size: 6vw;
+  font-size: 7vw;
   -webkit-text-stroke: 1px #fff;
   font-weight: 400;
   color: transparent;
@@ -394,17 +415,80 @@ background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-20
   animation-iteration-count: infinite;
   animation-direction: reverse;
 }
-.elem span{
+.elem span {
   font-style: italic;
-  font-family: 'silk serif';
+  font-family: "silk serif";
   color: transparent;
 }
-.elem2 span{
+.elem2 span {
   font-style: italic;
-  font-family: 'silk serif';
+  font-family: "silk serif";
   color: transparent;
 }
 
+#foor-head {
+  height: 80vh;
+  width: 100%;
 
+  /* background-color: red; */
+  position: relative;
+  /* margin-top: 3vw; */
+  padding: 2vw;
+}
+#footer {
+  margin-left: 30vw;
+  padding-bottom: 4vw;
+  margin-right: 4vw;
+}
 
+#footer h1 {
+  font-size: 7.2vw;
+  text-transform: uppercase;
+  position: relative;
+  /* background-color: blue; */
+}
 
+#footer h1::before {
+  content: "04";
+  position: absolute;
+  font-size: 3vw;
+  font-family: "silk serif";
+  font-weight: 100;
+  left: -12%;
+  top: 8%;
+}
+
+.underline {
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  margin: 2vw 0;
+}
+
+#footer-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-right: 15vw;
+  padding-top: 2vw;
+
+  margin-bottom: 4.5vw;
+}
+#footer-div h6 {
+  font-size: 1.2vw;
+  margin-bottom: 1.5vw;
+  font-weight: 500;
+}
+.box {
+  width: 20%;
+}
+#footer-div h5 {
+  font-size: 1.8vw;
+  font-weight: 500;
+  margin: 0.2vw 0;
+}
+
+#footer > h5 {
+  font-weight: 500;
+  font-size: 1vw;
+}
