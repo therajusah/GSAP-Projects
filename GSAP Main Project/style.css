@@ -80,11 +80,12 @@ body {
   text-transform: uppercase;
   font-weight: 900;
   opacity: 0;
-  animation-duration: 5s;
+  /* animation-name:  loaderAnime; */
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
-@keyframes anime {
+@keyframes loaderAnime {
   0% {
     font-family: "Plain Light";
     -webkit-text-stroke: 1px #fff;
