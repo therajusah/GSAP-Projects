@@ -1,3 +1,4 @@
+
 body[theme="black"] {
   background-color: black;
 }
@@ -5,7 +6,7 @@ body[theme="black"] {
 body[theme="black"] .section {
     color: #fff;
   }
-  
+
 body[theme="cyan"] {
   background-color: cyan;
 }
